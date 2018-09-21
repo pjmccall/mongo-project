@@ -9,7 +9,7 @@ $.getJSON("/articles", function(data) {
            data[i].title +
         "</div>" +
         "<div class='card-body'>" +
-          "<p class='card-text'>" + data[i].link + "</p>" +
+          "<p class='card-text'>" + "Full Article: " + "<a href='" + data[i].link + "' target='_blank'>" + data[i].link + "</p>" +
           "<button type='button' class='btn btn-primary'>"+ "Save" + "</button>" +
         "</div>" +
       "</div><br><br><br><br>");
